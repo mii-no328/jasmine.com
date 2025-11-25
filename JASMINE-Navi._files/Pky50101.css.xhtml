@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*
+画面固有のスタイルを定義する
+*/
+
+/*======================================================
+ * Pky501（ログイン画面）
+ */
+
+#pmPage {
+    background: #ffffff;
+}
+.ui-content {
+    padding: 1em !important;
+}
+
+#login {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.universityLogo {
+    /*background: url(../../../../images/mobile/upLogoLogin.png) no-repeat center center;*/ /* RXロゴを設定 */
+    background: url(../../../../images/univLogo.png) no-repeat center center; /* 大学ロゴを設定（PCと共通画像） */
+    background-size: contain;
+    box-sizing: border-box;
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+.loginLogo {
+    background: url(../../../../images/upLogoLogin.png) no-repeat center center; /* RXロゴを設定 */
+    background-size: contain;
+    box-sizing: border-box;
+    height: 22px;
+    margin-bottom: 15px;
+}
+
+.loginMain {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.loginForm {
+    background: #dddddd;
+    box-sizing: border-box;
+    color: #222222;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.loginForm input {
+    border: solid 1px #eeeeee;
+    text-align: center;
+}
+
+.loginForm .ui-checkbox input {
+    border: none;
+}
+
+.loginForm label {
+    font-weight: bold;
+}
+
+.btnLogin {
+    background: #005882 !important;
+    /*background: #e86c28 !important;*/
+    border: none;
+    color: #ffffff !important;
+    font-weight: normal;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.btnAutoLogin {
+    background: #005882 !important; /* デフォルトテーマに関わらず固定 */
+    border: none;
+    color: #ffffff !important; /* デフォルトテーマに関わらず固定 */
+    font-weight: normal;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.ui-checkbox label {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.pwForget {
+    margin-top: 10px;
+}
+
+.userIdCls input, passwdCls input {
+    background: #ffffff;
+}
+
+.autoChk input {
+    /*background: #14548f;*/
+}
+
+/* お知らせ */
+.information {
+    background: #ffffff;
+    border: dashed 1px #4d4d4d;
+    box-sizing: border-box;
+    margin-top: 20px;
+    min-height: 50px;
+    padding: 8px;
+}
+
+.information > table {
+    width: 100%;
+}
+
+.information > table > tbody >  tr {
+    border-bottom: dotted 2px #89c7be;
+}
+
+.information > table > tbody > tr:last-child {
+    border: 0;
+}
+
+.information > table > tbody > tr > td {
+    padding: 10px 0;
+}
+
+/* ×アイコン、チェックアイコンずれ補正 */
+/*
+#login .ui-btn-icon-notext:after {
+    left: 22px;
+    top: 18px;
+}
+*/
+/*
+#login .ui-btn-icon-left:after {
+    left: 10px;
+    top: 22px;
+}
+*/

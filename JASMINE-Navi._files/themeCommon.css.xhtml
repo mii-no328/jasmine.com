@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*======================================================
+ * themeCommon.css (SP)
+ *
+ * 著作権：Copyright Japan System Techniques Co., Ltd. All Rights Reserved.
+ * 会社名：日本システム技術株式会社
+======================================================*/
+
+/*======================================================
+ * 全カラーテーマ共通スタイル
+======================================================*/
+
+/*===== 全般 =====*/
+
+/* Focus時のshadow削除 */
+.ui-page-theme-a .ui-btn:focus,
+html .ui-bar-a .ui-btn:focus,
+html .ui-body-a .ui-btn:focus,
+html body .ui-group-theme-a .ui-btn:focus,
+html head + body .ui-btn.ui-btn-a:focus,
+.ui-page-theme-a .ui-focus,
+html .ui-bar-a .ui-focus,
+html .ui-body-a .ui-focus,
+html body .ui-group-theme-a .ui-focus,
+html head + body .ui-btn-a.ui-focus,
+html head + body .ui-body-a.ui-focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.ui-radio .ui-btn:not(.ui-btn-icon-left),
+.ui-tabs-nav .ui-btn {
+    background-color: #eaeaea;
+    border-color: #8c8c8c;
+    color: #222222;
+    text-shadow: initial;
+}
+
+.ui-radio .ui-btn.ui-btn-active:not(.ui-btn-icon-left),
+.ui-tabs-nav  .ui-btn.ui-btn-active {
+    background-color: #fffef9;
+    border-color: #005882;
+    color: #e17009;
+    text-shadow: initial;
+}
+
+.ui-checkbox .ui-checkbox-on::after {
+    background-color: #e17009;
+}
+
+.ui-radio .ui-radio-on::after {
+    border-color: #e17009;
+}
+
+/* memo（後ほど削除） */
+/*
+・エラー行、編集行などのスタイルもこちらに移行する。
+
+
+
+
+*/
